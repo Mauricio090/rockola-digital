@@ -1,0 +1,31 @@
+# Dependencias
+node_modules/
+hub/node_modules/
+client/node_modules/
+
+# Builds
+dist/
+build/
+client/build/
+hub/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Configuración local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Tests / Coverage
+coverage/
