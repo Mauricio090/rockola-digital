@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 90vh; /* ocupa toda la pantalla */
+}
+
+/* FILAS */
+.fila {
+  margin: 2px;
+  padding: 1px;
+}
+
+.fila-generos {
+  flex: 0; /* Ocupa la parte de arriba */
+  background: #f8f8f8;
+  border: 3px solid #000000;
+  border-radius: 15px;
+}
+
+.fila-musica {
+  flex: 1; /* Parte principal */
+  display: flex;
+}
+
+/* COLUMNAS dentro de la fila de música */
+.columna {
+  border: 3px solid #000000;
+  border-radius: 10px;
+  margin: 2px;
+  height: 30vh;
+}
+
+.canciones {
+  margin-right: 5px;
+  flex: 1.5; /* columna izquierda */
+  background: #fff;
+}
+
+.detalle {
+  margin-left: 5px;
+  flex: 1; /* columna derecha */
+  background: #f4f4f4;
+}
+
+/* PIE DE PÁGINA */
+.pie {
+  height: 50px; /* espacio arriba */
+  line-height: 1px; /* espacio abajo */
+}
